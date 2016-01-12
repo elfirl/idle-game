@@ -30,9 +30,17 @@ $(document).ready(function() {
 		gameData.numberOfClicks = gameData.numberOfClicks + gameData.autoClicks;
 		$(".total-clicks").text(gameData.numberOfClicks);
 	}
+
+    // Totals all clicks every 1000ms (or 1 second)
 	setInterval(totalAll, 1000);    
 
+    // Checks to see if there are enough clicks to buy things.
+    function purchaseThings() {
+    // Figure out what the cost is.
 
+    // If there are more clicks then the cost, increase the thing by 1.
+
+    }
 
 
 });
